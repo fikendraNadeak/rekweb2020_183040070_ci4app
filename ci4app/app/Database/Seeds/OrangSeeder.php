@@ -14,8 +14,8 @@ class OrangSeeder extends Seeder
 
 		for ($i = 0; $i < 100; $i++) {
 			$data = [
-				'nama' => $faker->name(),
-				'alamat' => $faker->address(),
+				'nama' => $faker->name,
+				'alamat' => $faker->address,
 				'created_at' => Time::createFromTimestamp($faker->unixTime()),
 				'updated_at' => Time::createFromTimestamp($faker->unixTime())
 			];
